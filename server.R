@@ -1,5 +1,5 @@
-library(shiny)
-data(iris)
+library(shiny) # Load shiny package
+data(iris) # Load the iris dataset
 
 
 shinyServer(
@@ -25,7 +25,7 @@ shinyServer(
     
     {
     colm = as.numeric(input$var)
-    hist(iris[,colm], col =input$radio, xlim = c(0, max(iris[,colm])), main = "Histogram of Iris dataset", breaks = seq(0, max(iris[,colm]),l=input$bin+1), xlab = names(iris[colm]))}
+    hist(iris[,colm], col =input$colour, xlim = c(0, max(iris[,colm])), main = "Histogram of Iris dataset", breaks = seq(0, max(iris[,colm]),l=input$bin+1), xlab = names(iris[colm]))}
     
     )    
   }
