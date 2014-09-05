@@ -1,3 +1,4 @@
+library(shiny)
 shinyUI(fluidPage(
   titlePanel(h4('Demonstration of file download using downloadbutton() and downloadHandler()', align="center")),
   sidebarLayout(

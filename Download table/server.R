@@ -1,3 +1,4 @@
+library(shiny)
 shinyServer(function(input, output) {
   
 ###### Reactive function to fetch the dataset observations based on the user's choice ---- > this will be used in the renderTable ###
