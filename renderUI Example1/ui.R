@@ -11,7 +11,6 @@ shinyUI(fluidPage(
       helpText("The following selectInput drop down choices are dynamically populated based on the dataset selected by the user above"),
       br(),
       uiOutput("vx"), # vx is coming from renderUI in server.r
-      selectInput(inputId = "data2", label = "Select the Dataset of your choice", choices = names(data1)),
       br(),
       br(),
       uiOutput("vy") # vy is coming from renderUI in server.r
