@@ -21,7 +21,7 @@ shinyServer(
     })
     
     output$text2 <- renderText({ 
-      paste("Color of histogram is", input$radio)
+      paste("Color of histogram is", input$colour)
     })
     
     output$text3 <- renderText({ 
