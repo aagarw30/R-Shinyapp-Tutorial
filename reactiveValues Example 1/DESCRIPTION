@@ -1,0 +1,7 @@
+Title: reactiveValues() function
+Description: With reactiveValues(), you can create your own reactive values. reactiveValues() Creates a list of objects that can be manipulated within a reactive context (within observer or observerEvent with dependency on changes in certain input or state of an object). reactiveValues() objects are not reactive themselves and do not re-execute themselves when input value changes unlike reactive objects. Powered by R, Shiny, and RStudio.
+License: GPL-3
+Author: Abhinav Agrawal
+DisplayMode: Showcase
+Tags: R, R Shiny,reactiveValues(), observeEvent()
+Type: Shiny
