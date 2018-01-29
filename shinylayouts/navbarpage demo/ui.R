@@ -10,10 +10,8 @@
 # Important note that a navbarmenu cannot be the first tab/page
 
 library(shiny)
-shinyUI(navbarPage(title = "Demo Shiny Navbar Layout", inverse = T,
-                   selected = "Data Page",
-                   position="fixed-top",
-
+shinyUI(navbarPage(title = "Demo Shiny Navbar Layout", 
+                   
                    tabPanel("About Page", 
                             h4("This app uses navbar for layout & mtcars dataset for demo")
                             ),
@@ -36,7 +34,7 @@ shinyUI(navbarPage(title = "Demo Shiny Navbar Layout", inverse = T,
                    navbarMenu("Menu Options",
                               tabPanel("Menu item A - Summary stats", verbatimTextOutput("summary")),
                               tabPanel("Menu item B - Link to code",
-                                       h4(HTML(paste("Thanks for watching the video. Reference code available at the following", a(href="www.google.com", "link"), "."))),
+                                       h4(HTML(paste("Thanks for watching the video. Reference code available at the following", a(href="https://github.com/aagarw30/R-Shinyapp-Tutorial/tree/master/shinylayouts/navbarpage%20demo", "link"), "."))),
                                        h4(HTML(paste("In case you have questions", a(href="mailto:aagarw30@gmail.com", "email me"), ".")))
 
                                        ))
