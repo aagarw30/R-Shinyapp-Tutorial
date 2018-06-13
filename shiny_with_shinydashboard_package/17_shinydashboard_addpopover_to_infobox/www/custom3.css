@@ -1,0 +1,21 @@
+
+
+/* for the infoBox text (title) styling */
+.info-box-text {
+  font-style: italic;
+}
+
+/* for the infoBox number (value) styling */
+.info-box-number {
+  font-style: italic;
+}
+
+/* for the infoBox subtitle styling */
+.info-box-content > p {
+text-align:right;
+vertical-align:top;
+position:relative;
+top:-50px;
+
+}
+
